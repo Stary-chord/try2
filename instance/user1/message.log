@@ -1,0 +1,59 @@
+
+**************Begin new trust node proc****************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"","receiver_uuid":"","route
+    ":"","flow":"FINISH","state":"MATCH","flag":"NULL","ljump":1,"rjump":1,"record_t
+    ype":"MESSAGE","record_subtype":"CONN_SYNI","record_num":1,"record_size":90,"exp
+    and_num":0,"expand_size":0,"msg_uuid":"559baa9bbb4a56d5c49e2e9da5f335d88acfe17d6
+    b384f4688b96a796a176602"},
+"RECORD":[
+    {"uuid":"88b739e9b7c49707cd4bcf9f7f8ef58ef413d49f175f2d55b1a625cf9463ea79","serv
+        er_name":"server","service":"trust_server","server_addr":"x","flags":0,"nonce":"
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"msg_send","receiver_uuid":"
+    :user_client","route":"login","flow":"QUERY","state":"MATCH","flag":"NULL","ljum
+    p":1,"rjump":1,"record_type":"USER_DEFINE","record_subtype":"LOGIN","record_num"
+    :1,"record_size":0,"expand_num":0,"expand_size":0,"msg_uuid":"31a1366864fd070a44
+    9f63de95a795af5895bb69a9a0c8f742dc784ad0be5600"},
+"RECORD":[
+    {"user_name":"zhangle","passwd":"123","proc_name":"","machine_uuid":""}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"fe9148655eaf6601b1967615dcb
+    5ec0382dc9bd754edbe38c2a0583b26e8dc05","receiver_uuid":"print","route":"login","
+    flow":"QUERY","state":"RESPONSE","flag":"LOCAL","ljump":1,"rjump":1,"record_type
+    ":"USER_DEFINE","record_subtype":"RETURN","record_num":1,"record_size":20,"expan
+    d_num":0,"expand_size":0,"msg_uuid":"31a1366864fd070a449f63de95a795af5895bb69a9a
+    0c8f742dc784ad0be5600"},
+"RECORD":[
+    {"return_code":"SUCCEED","return_info":"login succeed!
+"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"print","receiver_uuid":"","
+    route":"login","flow":"FINISH","state":"RESPONSE","flag":"LOCAL","ljump":2,"rjum
+    p":1,"record_type":"USER_DEFINE","record_subtype":"RETURN","record_num":1,"recor
+    d_size":20,"expand_num":0,"expand_size":0,"msg_uuid":"31a1366864fd070a449f63de95
+    a795af5895bb69a9a0c8f742dc784ad0be5600"},
+"RECORD":[
+    {"return_code":"SUCCEED","return_info":"login succeed!
+"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************

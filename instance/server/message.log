@@ -1,0 +1,242 @@
+
+**************Begin new trust node proc****************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"","receiver_uuid":"user_lab
+    el","route":"addr_init","flow":"DELIVER","state":"MATCH","flag":"LOCAL","ljump":
+    1,"rjump":1,"record_type":"MESSAGE","record_subtype":"CONN_ACKI","record_num":1,
+    "record_size":144,"expand_num":0,"expand_size":0,"msg_uuid":"83689b92d1ad03d45fc
+    83766d41754afc13d3270ba69b2197f3ba0a50daa8a22"},
+"RECORD":[
+    {"uuid":"88b739e9b7c49707cd4bcf9f7f8ef58ef413d49f175f2d55b1a625cf9463ea79","clie
+        nt_name":"user","client_proc":"user","client_addr":"unknown addr","server_uuid":
+        "88b739e9b7c49707cd4bcf9f7f8ef58ef413d49f175f2d55b1a625cf9463ea79","server_name"
+        :"server","service":"trust_server","server_addr":"","flags":0,"nonce":""}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"user_label","receiver_uuid"
+    :"","route":"addr_init","flow":"DELIVER","state":"MATCH","flag":"LOCAL","ljump":
+    2,"rjump":1,"record_type":"MESSAGE","record_subtype":"CONN_ACKI","record_num":1,
+    "record_size":144,"expand_num":0,"expand_size":0,"msg_uuid":"83689b92d1ad03d45fc
+    83766d41754afc13d3270ba69b2197f3ba0a50daa8a22"},
+"RECORD":[
+    {"uuid":"88b739e9b7c49707cd4bcf9f7f8ef58ef413d49f175f2d55b1a625cf9463ea79","clie
+        nt_name":"user","client_proc":"user","client_addr":"unknown addr","server_uuid":
+        "88b739e9b7c49707cd4bcf9f7f8ef58ef413d49f175f2d55b1a625cf9463ea79","server_name"
+        :"server","service":"trust_server","server_addr":"","flags":0,"nonce":""}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"","receiver_uuid":"user_lab
+    el","route":"addr_init","flow":"DELIVER","state":"MATCH","flag":"LOCAL","ljump":
+    1,"rjump":1,"record_type":"MESSAGE","record_subtype":"CONN_ACKI","record_num":1,
+    "record_size":147,"expand_num":0,"expand_size":0,"msg_uuid":"f482722e3a385f40fe1
+    ac698cd5be1fc8e6f5945cbedca675302e3a697d95033"},
+"RECORD":[
+    {"uuid":"88b739e9b7c49707cd4bcf9f7f8ef58ef413d49f175f2d55b1a625cf9463ea79","clie
+        nt_name":"user2","client_proc":"user2","client_addr":"unknown addr","server_uuid
+        ":"88b739e9b7c49707cd4bcf9f7f8ef58ef413d49f175f2d55b1a625cf9463ea79","server_nam
+        e":"server","service":"trust_server","server_addr":"x","flags":0,"nonce":""}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"user_label","receiver_uuid"
+    :"","route":"addr_init","flow":"DELIVER","state":"MATCH","flag":"LOCAL","ljump":
+    2,"rjump":1,"record_type":"MESSAGE","record_subtype":"CONN_ACKI","record_num":1,
+    "record_size":147,"expand_num":0,"expand_size":0,"msg_uuid":"f482722e3a385f40fe1
+    ac698cd5be1fc8e6f5945cbedca675302e3a697d95033"},
+"RECORD":[
+    {"uuid":"88b739e9b7c49707cd4bcf9f7f8ef58ef413d49f175f2d55b1a625cf9463ea79","clie
+        nt_name":"user2","client_proc":"user2","client_addr":"unknown addr","server_uuid
+        ":"88b739e9b7c49707cd4bcf9f7f8ef58ef413d49f175f2d55b1a625cf9463ea79","server_nam
+        e":"server","service":"trust_server","server_addr":"x","flags":0,"nonce":""}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"903b16c6fbc74363f77624ffc60
+    7e1a55299778f3b1ea72eb04e0ce3681c4d68","receiver_uuid":"user_server","route":"lo
+    gin","flow":"QUERY","state":"MATCH","flag":"LOCAL","ljump":1,"rjump":2,"record_t
+    ype":"USER_DEFINE","record_subtype":"LOGIN","record_num":1,"record_size":104,"ex
+    pand_num":0,"expand_size":0,"msg_uuid":"bd378d62837d0e168eee5cb3c28980fc9b518067
+    6bdaa828cf549446c1f75b01"},
+"RECORD":[
+    {"user_name":"zhaowen","passwd":"123","proc_name":"","machine_uuid":""}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"903b16c6fbc74363f77624ffc60
+    7e1a55299778f3b1ea72eb04e0ce3681c4d68","receiver_uuid":"user_label","route":"add
+    r_label","flow":"QUERY","state":"MATCH","flag":"LOCAL","ljump":1,"rjump":1,"reco
+    rd_type":"USER_DEFINE","record_subtype":"LOGIN","record_num":1,"record_size":104
+    ,"expand_num":0,"expand_size":0,"msg_uuid":"746e40cd9c75a927744ed55652e326c9e196
+    45abaa1ecdef082720a02b26ef62"},
+"RECORD":[
+    {"user_name":"zhaowen","passwd":"123","proc_name":"","machine_uuid":""}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"903b16c6fbc74363f77624ffc60
+    7e1a55299778f3b1ea72eb04e0ce3681c4d68","receiver_uuid":"user_server","route":"lo
+    gin","flow":"QUERY","state":"MATCH","flag":"LOCAL","ljump":1,"rjump":2,"record_t
+    ype":"USER_DEFINE","record_subtype":"LOGIN","record_num":1,"record_size":104,"ex
+    pand_num":1,"expand_size":0,"msg_uuid":"bd378d62837d0e168eee5cb3c28980fc9b518067
+    6bdaa828cf549446c1f75b01"},
+"RECORD":[
+    {"user_name":"zhaowen","passwd":"123","proc_name":"","machine_uuid":""}
+    ],
+"EXPAND" :[
+    {"data_size":0,"type":"LABEL_DEFINE","subtype":"ADDR","expand":
+        {"node_uuid":"88b739e9b7c49707cd4bcf9f7f8ef58ef413d49f175f2d55b1a625cf9463ea79",
+            "proc_name":"user","user_name":"zhaowen","role":"NULL"}
+        }
+    ]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"user_server","receiver_uuid
+    ":"903b16c6fbc74363f77624ffc607e1a55299778f3b1ea72eb04e0ce3681c4d68","route":"lo
+    gin","flow":"QUERY","state":"RESPONSE","flag":"NULL","ljump":2,"rjump":2,"record
+    _type":"USER_DEFINE","record_subtype":"RETURN","record_num":1,"record_size":0,"e
+    xpand_num":1,"expand_size":0,"msg_uuid":"bd378d62837d0e168eee5cb3c28980fc9b51806
+    76bdaa828cf549446c1f75b01"},
+"RECORD":[
+    {"return_code":"SUCCEED","return_info":"login succeed!
+"}
+    ],
+"EXPAND" :[
+    {"data_size":0,"type":"LABEL_DEFINE","subtype":"ADDR","expand":
+        {"node_uuid":"88b739e9b7c49707cd4bcf9f7f8ef58ef413d49f175f2d55b1a625cf9463ea79",
+            "proc_name":"user","user_name":"zhaowen","role":"NULL"}
+        }
+    ]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"user_server","receiver_uuid
+    ":"user_label","route":"addr_verify","flow":"QUERY","state":"MATCH","flag":"LOCA
+    L","ljump":1,"rjump":1,"record_type":"USER_DEFINE","record_subtype":"RETURN","re
+    cord_num":1,"record_size":0,"expand_num":1,"expand_size":0,"msg_uuid":"700fb2caf
+    8b494056ca0dc53d834004056948c14fe77957bc943fe99076c65e7"},
+"RECORD":[
+    {"return_code":"SUCCEED","return_info":"login succeed!
+"}
+    ],
+"EXPAND" :[
+    {"data_size":0,"type":"LABEL_DEFINE","subtype":"ADDR","expand":
+        {"node_uuid":"88b739e9b7c49707cd4bcf9f7f8ef58ef413d49f175f2d55b1a625cf9463ea79",
+            "proc_name":"user","user_name":"zhaowen","role":"NULL"}
+        }
+    ]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"user_server","receiver_uuid
+    ":"903b16c6fbc74363f77624ffc607e1a55299778f3b1ea72eb04e0ce3681c4d68","route":"lo
+    gin","flow":"QUERY","state":"RESPONSE","flag":"NULL","ljump":2,"rjump":2,"record
+    _type":"USER_DEFINE","record_subtype":"RETURN","record_num":1,"record_size":0,"e
+    xpand_num":0,"expand_size":0,"msg_uuid":"bd378d62837d0e168eee5cb3c28980fc9b51806
+    76bdaa828cf549446c1f75b01"},
+"RECORD":[
+    {"return_code":"SUCCEED","return_info":"login succeed!
+"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"d5d66a95bdb584cdd87400053aa
+    4f10643b00ee22b09f07754f14166d26503d8","receiver_uuid":"user_server","route":"lo
+    gin","flow":"QUERY","state":"MATCH","flag":"LOCAL","ljump":1,"rjump":2,"record_t
+    ype":"USER_DEFINE","record_subtype":"LOGIN","record_num":1,"record_size":105,"ex
+    pand_num":0,"expand_size":0,"msg_uuid":"1a0a33a192fd70bd7e2b2a0646e9505925be8930
+    d6a223460a0f85d18a6479cf"},
+"RECORD":[
+    {"user_name":"wangdong","passwd":"123","proc_name":"","machine_uuid":""}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"d5d66a95bdb584cdd87400053aa
+    4f10643b00ee22b09f07754f14166d26503d8","receiver_uuid":"user_label","route":"add
+    r_label","flow":"QUERY","state":"MATCH","flag":"LOCAL","ljump":1,"rjump":1,"reco
+    rd_type":"USER_DEFINE","record_subtype":"LOGIN","record_num":1,"record_size":105
+    ,"expand_num":0,"expand_size":0,"msg_uuid":"caaa9db379fdaab14f97c21d60257e5c1e8b
+    e3a71513dcac1c8ec84e59254183"},
+"RECORD":[
+    {"user_name":"wangdong","passwd":"123","proc_name":"","machine_uuid":""}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"903b16c6fbc74363f77624ffc60
+    7e1a55299778f3b1ea72eb04e0ce3681c4d68","receiver_uuid":"record_server","route":"
+    record","flow":"QUERY","state":"MATCH","flag":"LOCAL","ljump":1,"rjump":2,"recor
+    d_type":"RECORD_DEFINE","record_subtype":"WRITE","record_num":1,"record_size":36
+    ,"expand_num":0,"expand_size":0,"msg_uuid":"a995b726d7d3a854346d75407649a27efecc
+    04651e79ceea5dc4ae98a035bad9"},
+"RECORD":[
+    {"record_no":"001","segment":"admin_info","text":"test user write data"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"d5d66a95bdb584cdd87400053aa
+    4f10643b00ee22b09f07754f14166d26503d8","receiver_uuid":"user_server","route":"lo
+    gin","flow":"QUERY","state":"MATCH","flag":"LOCAL","ljump":1,"rjump":2,"record_t
+    ype":"USER_DEFINE","record_subtype":"LOGIN","record_num":1,"record_size":105,"ex
+    pand_num":1,"expand_size":0,"msg_uuid":"1a0a33a192fd70bd7e2b2a0646e9505925be8930
+    d6a223460a0f85d18a6479cf"},
+"RECORD":[
+    {"user_name":"wangdong","passwd":"123","proc_name":"","machine_uuid":""}
+    ],
+"EXPAND" :[
+    {"data_size":0,"type":"LABEL_DEFINE","subtype":"ADDR","expand":
+        {"node_uuid":"88b739e9b7c49707cd4bcf9f7f8ef58ef413d49f175f2d55b1a625cf9463ea79",
+            "proc_name":"user2","user_name":"wangdong","role":"NULL"}
+        }
+    ]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"903b16c6fbc74363f77624ffc60
+    7e1a55299778f3b1ea72eb04e0ce3681c4d68","receiver_uuid":"user_label","route":"wri
+    te_access","flow":"QUERY","state":"MATCH","flag":"LOCAL","ljump":1,"rjump":1,"re
+    cord_type":"RECORD_DEFINE","record_subtype":"WRITE","record_num":1,"record_size"
+    :36,"expand_num":0,"expand_size":0,"msg_uuid":"f031f6ada05de08ebbfdcca631cf89730
+    f296438f4e4a31e1d2ffad68fe9c340"},
+"RECORD":[
+    {"record_no":"001","segment":"admin_info","text":"test user write data"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************

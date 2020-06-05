@@ -1,0 +1,30 @@
+
+**************Begin new trust node proc****************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"","receiver_uuid":"","route
+    ":"","flow":"FINISH","state":"MATCH","flag":"NULL","ljump":1,"rjump":1,"record_t
+    ype":"MESSAGE","record_subtype":"CONN_SYNI","record_num":1,"record_size":90,"exp
+    and_num":0,"expand_size":0,"msg_uuid":"f482722e3a385f40fe1ac698cd5be1fc8e6f5945c
+    bedca675302e3a697d95033"},
+"RECORD":[
+    {"uuid":"88b739e9b7c49707cd4bcf9f7f8ef58ef413d49f175f2d55b1a625cf9463ea79","serv
+        er_name":"server","service":"trust_server","server_addr":"x","flags":0,"nonce":"
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"msg_send","receiver_uuid":"
+    :user_client","route":"login","flow":"QUERY","state":"MATCH","flag":"NULL","ljum
+    p":1,"rjump":1,"record_type":"USER_DEFINE","record_subtype":"LOGIN","record_num"
+    :1,"record_size":0,"expand_num":0,"expand_size":0,"msg_uuid":"1a0a33a192fd70bd7e
+    2b2a0646e9505925be8930d6a223460a0f85d18a6479cf"},
+"RECORD":[
+    {"user_name":"wangdong","passwd":"123","proc_name":"","machine_uuid":""}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
